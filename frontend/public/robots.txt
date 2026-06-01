@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+#
+#   ██████╗ ██╗   ██╗██████╗ ██╗███╗   ██╗ ██████╗
+#  ██╔════╝ ██║   ██║██╔══██╗██║████╗  ██║██╔═══██╗
+#  ██║  ███╗██║   ██║██║  ██║██║██╔██╗ ██║██║   ██║
+#  ██║   ██║██║   ██║██║  ██║██║██║╚██╗██║██║   ██║
+#  ╚██████╔╝╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝
+#   ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
+#
+#  Jaime Gudino from jaimegudino.com
+#  computer science B.S @ Washington State University, 2026
+#
+# ---------------------------------------------------------------
+#  You found it. Nice work.
+#
+#  This site runs on self-hosted Linux, containerized in Docker,
+#  routed through Cloudflare, no Vercel, no Netlify, no magic.
+#  Built from scratch: React + Vite + Three.js + nginx.
+#
+#  If you're a crawler  : go right ahead, everything is free to look.
+#  If you're a recruiter: jaime.gudino@wsu.edu
+#  If you're a human    : hit the contact form, I don't bite.
+#
+# ---------------------------------------------------------------
+
+User-agent: *
+Allow: /
+
+Sitemap: https://jaimegudino.com/sitemap.xml
