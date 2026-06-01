@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build: .
+    container_name: portfolio
+    restart: unless-stopped
+    ports:
+      - "3010:80"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
