@@ -559,7 +559,7 @@ function QuantumWord({ letters, lockedCount, target, isGradient = false }) {
 }
 
 const stats = [
-  { end: 3,      suffix: '',    label: 'live deployments',  sub: 'Production web systems',       color: 'cyan'    },
+  { end: 4,      suffix: '',    label: 'live deployments',  sub: 'Production web systems',       color: 'cyan'    },
   { end: 360,    suffix: '°',   label: '3D showroom',        sub: 'Three.js + React Three Fiber', color: 'violet'  },
   { end: 0,      suffix: ' dt', label: 'downtime deploys',   sub: 'Blue-green pipeline',           color: 'emerald' },
   { end: 81.67,  suffix: '%',   label: 'RAG accuracy',       sub: 'AI advising research',          color: 'fuchsia' },
