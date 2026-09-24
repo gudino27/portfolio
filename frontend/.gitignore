@@ -5,3 +5,6 @@ dist/
 .env.production.local
 .DS_Store
 *.log
+
+# Resume lives only on the server, never in git
+public/resume.pdf
