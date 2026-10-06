@@ -5,7 +5,6 @@ import Hero           from './components/Hero'
 
 const Marquee        = lazy(() => import('./components/Marquee'))
 const About          = lazy(() => import('./components/About'))
-const Research       = lazy(() => import('./components/Research'))
 const Projects       = lazy(() => import('./components/Projects'))
 const TechStack      = lazy(() => import('./components/TechStack'))
 const Experience     = lazy(() => import('./components/Experience'))
@@ -67,7 +66,6 @@ export default function App() {
         <Hero />
         <Suspense fallback={null}><Marquee /></Suspense>
         <Suspense fallback={null}><About /></Suspense>
-        <Suspense fallback={null}><Research /></Suspense>
         <Suspense fallback={null}><Projects onCaseStudy={setSelectedStudy} /></Suspense>
         <Suspense fallback={null}><TechStack /></Suspense>
         <Suspense fallback={null}><Experience /></Suspense>
@@ -77,7 +75,7 @@ export default function App() {
       <Suspense fallback={null}><StatusStrip /></Suspense>
       <Suspense fallback={null}><GitActivity /></Suspense>
       <footer className="border-t border-zinc-800 py-8 text-center text-zinc-600 text-xs font-mono">
-        <span>jaime.gudino@wsu.edu</span>
+        <span>jaime@jaimegudino.com</span>
         <span className="mx-3 text-zinc-800">·</span>
         <span>React + Vite + Tailwind</span>
         <span className="mx-3 text-zinc-800">·</span>

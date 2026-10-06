@@ -4,7 +4,6 @@ import { Search, ArrowRight, BookOpen, Terminal, FileText, Github, Mail } from '
 
 const NAV_ITEMS = [
   { id: 'about',      label: 'About' },
-  { id: 'research',   label: 'Research' },
   { id: 'projects',   label: 'Projects' },
   { id: 'techstack',  label: 'Tech Stack' },
   { id: 'experience', label: 'Experience' },
@@ -55,7 +54,7 @@ export default function CommandPalette({ open, onClose, onTerminal, onCaseStudy 
     },
     {
       group: 'Actions', label: 'Send Email', icon: Mail,
-      action() { window.location.href = 'mailto:jaime.gudino@wsu.edu'; onClose() },
+      action() { window.location.href = 'mailto:jaime@jaimegudino.com'; onClose() },
     },
   ]
 

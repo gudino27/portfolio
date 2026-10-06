@@ -7,8 +7,8 @@ const links = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'jaime.gudino@wsu.edu',
-    href: 'mailto:jaime.gudino@wsu.edu',
+    value: 'jaime@jaimegudino.com',
+    href: 'mailto:jaime@jaimegudino.com',
     desc: 'Best for research & collaboration',
   },
   {
@@ -180,7 +180,7 @@ export default function Contact() {
                 {status === 'error' && (
                   <div className="flex items-center gap-2 text-xs text-red-400 bg-red-500/10 border border-red-500/20 rounded-lg px-3 py-2">
                     <AlertCircle size={13} className="shrink-0" />
-                    Something went wrong. Try emailing directly at jaime.gudino@wsu.edu
+                    Something went wrong. Try emailing directly at jaime@jaimegudino.com
                   </div>
                 )}
 

@@ -18,7 +18,7 @@
 #  Built from scratch: React + Vite + Three.js + nginx.
 #
 #  If you're a crawler  : go right ahead, everything is free to look.
-#  If you're a recruiter: jaime.gudino@wsu.edu
+#  If you're a recruiter: jaime@jaimegudino.com
 #  If you're a human    : hit the contact form, I don't bite.
 #
 # ---------------------------------------------------------------

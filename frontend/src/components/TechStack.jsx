@@ -5,13 +5,13 @@ import { uiState } from '../battleState'
 const CDN = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons'
 
 const TECHS = [
-  { name: 'React',        img: 'react/react-original.svg',                                    projects: ['Virtual Counselor', 'CougarPark', 'Gudino Woodworking', 'Portfolio'] },
-  { name: 'TypeScript',   img: 'typescript/typescript-original.svg',                           projects: ['Brain MCP'] },
+  { name: 'React',        img: 'react/react-original.svg',                                    projects: ['Virtual Counselor', 'CougarPark', 'Gudino Woodworking', 'Apparel Platform', 'Portfolio'] },
+  { name: 'TypeScript',   img: 'typescript/typescript-original.svg',                           projects: ['Apparel Platform', 'Brain MCP'] },
   { name: 'JavaScript',   img: 'javascript/javascript-original.svg',                           projects: ['Portfolio', 'Gudino Woodworking'] },
   { name: 'Python',       img: 'python/python-original.svg',                                   projects: ['CougarPark', 'Virtual Counselor'] },
   { name: 'Swift',        img: 'swift/swift-original.svg',                                     projects: ['Gudino Woodworking'] },
-  { name: 'Docker',       img: 'docker/docker-original.svg',                                   projects: ['Virtual Counselor', 'Gudino Woodworking'] },
-  { name: 'Node.js',      img: 'nodejs/nodejs-original.svg',                                   projects: ['Brain MCP', 'Gudino Woodworking'] },
+  { name: 'Docker',       img: 'docker/docker-original.svg',                                   projects: ['Virtual Counselor', 'Gudino Woodworking', 'Apparel Platform'] },
+  { name: 'Node.js',      img: 'nodejs/nodejs-original.svg',                                   projects: ['Apparel Platform', 'Brain MCP', 'Gudino Woodworking'] },
   { name: 'Go',           img: 'go/go-original-wordmark.svg',                                  projects: [],                                                              note: 'Coursework' },
   { name: 'Java',         img: 'java/java-original.svg',                                       projects: [],                                                              note: 'Coursework' },
   { name: 'Three.js',     img: 'threejs/threejs-original.svg',        invert: true,            projects: ['Gudino Woodworking', 'Brain MCP', 'Portfolio'] },
@@ -32,6 +32,15 @@ const TECHS = [
   { name: 'N8N',          img: null,                                                           projects: ['Virtual Counselor'] },
   { name: 'Twilio',       img: 'twilio/twilio-original.svg',                                   projects: ['Gudino Woodworking'] },
   { name: 'ZeptoMail',    img: null,                                                           projects: ['Gudino Woodworking'] },
+  { name: 'NestJS',       img: 'nestjs/nestjs-original.svg',                                   projects: ['Apparel Platform'] },
+  { name: 'Prisma',       img: 'prisma/prisma-original.svg',          invert: true,            projects: ['Apparel Platform'] },
+  { name: 'PostgreSQL',   img: 'postgresql/postgresql-original.svg',                          projects: ['Apparel Platform'] },
+  { name: 'Redis',        img: 'redis/redis-original.svg',                                     projects: ['Apparel Platform'] },
+  { name: 'BullMQ',       img: null,                                                           projects: ['Apparel Platform'] },
+  { name: 'Stripe',       img: null,                                                           projects: ['Apparel Platform'] },
+  { name: 'Jest',         img: 'jest/jest-plain.svg',                                          projects: ['Apparel Platform'] },
+  { name: 'Vitest',       img: 'vitest/vitest-original.svg',                                   projects: ['Apparel Platform'] },
+  { name: 'GitHub Actions', img: 'githubactions/githubactions-original.svg',                   projects: ['Apparel Platform'] },
   { name: 'Web3Forms',    img: null,                                                           projects: ['Portfolio'] },
 ]
 

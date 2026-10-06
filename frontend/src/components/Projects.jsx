@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import useInView from '../hooks/useInView'
 import {
   ExternalLink, Github, Box, Brain, Cpu, Code2, Network, Zap,
-  Briefcase, GraduationCap, Award,
+  Briefcase, GraduationCap, Award, ShoppingBag,
 } from 'lucide-react'
 
 const accentLine = {
@@ -58,8 +58,8 @@ const timeline = [
   
   {
     type: 'project',
-    year: '2024-2026',
-    span: 'Spring 2024',
+    year: '2025-present',
+    span: 'Jan 2025',
     title: 'Virtual Counselor',
     desc: 'AI academic planning for WSU students. RAG over WSU course catalogs with structured BFS prerequisite traversal. 81.67% accuracy across 120 domain test cases vs 30.83% without retrieval.',
     stack: ['React', 'Express', 'N8N', 'SQLite', 'Docker', 'FAISS', 'Claude API', 'Cloudflare'],
@@ -78,8 +78,8 @@ const timeline = [
   },
   {
     type: 'project',
-    year: '2024-present',
-    span: '2024 - Now',
+    year: '2025-present',
+    span: 'May 2025 - Now',
     title: 'Gudino Custom Woodworking',
     desc: 'Full business operations platform for a family cabinet company. Three.js virtual showroom, interactive 3D kitchen and bathroom designer with AR export, native Swift iOS admin app (Face ID, APNs), and a zero-downtime blue-green deployment pipeline.',
     stack: ['React', 'Three.js', 'React Three Fiber', 'Swift', 'UIKit', 'APNs', 'Express', 'SQLite', 'Twilio', 'ZeptoMail', 'Docker Buildx Bake', 'Cloudflare'],
@@ -163,7 +163,26 @@ const timeline = [
     badge: 'AI Tooling',
     badgeColor: 'text-amber-400 bg-amber-400/10 border-amber-400/20',
     caseStudyKey: 'brainmcp',
-  },  
+  },
+  {
+    type: 'project',
+    year: '2026',
+    span: '2026 - Now',
+    title: 'Custom Apparel Platform',
+    desc: 'E-commerce and production management for a new print shop: customers design garments in the browser and check out; staff turn orders into 300 DPI press-ready artwork, job sheets and shipments. Server-side render pipeline at 99.3% pixel fidelity with the browser editor, 4 BullMQ queues, and Stripe webhooks guarded against duplicate side effects.',
+    stack: ['TypeScript', 'NestJS', 'Fastify', 'Prisma', 'PostgreSQL', 'Redis', 'BullMQ', 'React', 'Stripe', 'Fabric.js', 'Docker'],
+    live: null,
+    icon: ShoppingBag,
+    accent: 'emerald',
+    badge: 'In Progress',
+    badgeColor: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20',
+    metrics: [
+      { label: 'API Endpoints', value: '111' },
+      { label: 'Render Fidelity', value: '99.3%' },
+      { label: 'Tests', value: '146' },
+    ],
+    caseStudyKey: null,
+  },
   {
     type: 'project',
     year: '2026',

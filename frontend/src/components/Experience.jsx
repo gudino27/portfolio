@@ -12,28 +12,20 @@ const entries = [
     desc: 'Maintained internal IT systems, networking, and workstations. Built foundational DevOps practices that informed later infrastructure work at Gudino Custom Woodworking.',
   },
   {
-    role: 'Student Event Supervisor',
+    role: 'Student Manager',
     org: 'WSU Catering',
     year: '2022',
     yearSub: '2022 – Present',
     category: 'Part-time · Leadership',
-    desc: 'Supervises catering operations for WSU events. Develops leadership, logistics coordination, and operational communication skills alongside the CS program.',
+    desc: 'Promoted from server to Student Manager within 1.5 years. Leads teams of 5 to 30 for WSU events of 5 to 1,000+ guests, and keeps an event on track when plans change.',
   },
   {
-    role: 'Applied ML Researcher',
-    org: 'WSU CPT S 440: AI Research',
-    year: '2025',
-    yearSub: 'Spring 2025',
-    category: 'Academic · Research',
-    desc: 'Built a RAG pipeline for WSU academic advising using FAISS + sentence-transformers + Nvidia Reranker. Achieved 81.67% accuracy across 120 domain test cases vs 30.83% without retrieval.current work being done on publishing a paper on the results, with continued growth on the project.',
-  },
-  {
-    role: 'IT Supervisor & Full-Stack Developer',
+    role: 'Software Engineer',
     org: 'Gudino Custom Woodworking LLC',
     year: 'NOW',
-    yearSub: '2025 – Present',
+    yearSub: 'May 2025 – Present',
     category: 'Part-time · Software',
-    desc: 'Architected the full gudinocustom.com platform: Three.js virtual showroom, 3D kitchen/bathroom designer with AR export, native Swift iOS admin app with Face ID + APNs, and a zero-downtime blue-green deployment pipeline on self-hosted Linux with Cloudflare Tunnels.',
+    desc: 'Architect and maintain the full business platform: gudinocustom.com (Three.js virtual showroom, 3D kitchen/bathroom designer with AR export), a native Swift iOS admin app with Face ID + APNs, the API, N8N automations, Instagram Graph API and SEO monitoring, and a zero-downtime blue-green deployment pipeline on self-hosted Linux with Cloudflare Tunnels.',
   },
 ]
 

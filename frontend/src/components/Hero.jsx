@@ -562,7 +562,7 @@ const stats = [
   { end: 4,      suffix: '',    label: 'live deployments',  sub: 'Production web systems',       color: 'cyan'    },
   { end: 360,    suffix: '°',   label: '3D showroom',        sub: 'Three.js + React Three Fiber', color: 'violet'  },
   { end: 0,      suffix: ' dt', label: 'downtime deploys',   sub: 'Blue-green pipeline',           color: 'emerald' },
-  { end: 81.67,  suffix: '%',   label: 'RAG accuracy',       sub: 'AI advising research',          color: 'fuchsia' },
+  { end: 81.67,  suffix: '%',   label: 'RAG accuracy',       sub: 'Virtual Counselor advising',          color: 'fuchsia' },
 ]
 
 const colorGlass = {
@@ -674,8 +674,8 @@ export default function Hero() {
           <a href="https://github.com/gudino27" target="_blank" rel="noopener noreferrer" className="btn-primary">
             <Github size={15} /> github.com/gudino27
           </a>
-          <a href="mailto:jaime.gudino@wsu.edu" className="btn-secondary">
-            <Mail size={15} /> jaime.gudino@wsu.edu
+          <a href="mailto:jaime@jaimegudino.com" className="btn-secondary">
+            <Mail size={15} /> jaime@jaimegudino.com
           </a>
           <a href="#projects" className="inline-flex items-center gap-1.5 text-zinc-500 hover:text-zinc-300 text-sm transition-colors">
             My Work <ArrowUpRight size={13} />
