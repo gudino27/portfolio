@@ -4,7 +4,7 @@ const SITES = [
   {
     key:     'showroom',
     label:   'gudinocustom.com',
-    desc:    'Three.js showroom · iOS admin · blue-green CI',
+    desc:    'Customer site · admin panel + iOS app · zero-downtime deploys',
     url:     'https://gudinocustom.com',
   },
   {

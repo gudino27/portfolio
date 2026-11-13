@@ -124,7 +124,7 @@ export default function Education() {
                   },
                   {
                     title: 'web development',
-                    body:'CPTS 489: learned basics of HTML, CSS,JS. used foundations for class project to extend into a react website which has now become gudinocustom.com, my personal portfolio and playground for web experiments.',
+                    body:'CPTS 489: learned basics of HTML, CSS,JS. used foundations for class project to extend into a react website which has now become gudinocustom.com, the website and back office of the family cabinet shop.',
 
                   },
                   {

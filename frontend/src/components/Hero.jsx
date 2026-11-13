@@ -560,7 +560,7 @@ function QuantumWord({ letters, lockedCount, target, isGradient = false }) {
 
 const stats = [
   { end: 4,      suffix: '',    label: 'live deployments',  sub: 'Production web systems',       color: 'cyan'    },
-  { end: 360,    suffix: '°',   label: '3D showroom',        sub: 'Three.js + React Three Fiber', color: 'violet'  },
+  { end: 290,    suffix: '',    label: 'API route handlers', sub: 'Cabinet shop back office',     color: 'violet'  },
   { end: 0,      suffix: ' dt', label: 'downtime deploys',   sub: 'Blue-green pipeline',           color: 'emerald' },
   { end: 81.67,  suffix: '%',   label: 'RAG accuracy',       sub: 'Virtual Counselor advising',          color: 'fuchsia' },
 ]
@@ -663,7 +663,7 @@ export default function Hero() {
             Full-stack web developer and native iOS developer.
           </p>
           <p className="text-sm sm:text-base text-zinc-500 max-w-xl mx-auto mt-2 leading-relaxed">
-            I run the full digital operation for a family cabinet business: 3D showroom, iOS admin app, zero-downtime deploys. Also doing applied ML research at WSU. Bilingual in English and Spanish.
+            I built and run the website and back office of a family cabinet shop: customer site with a 3D kitchen designer, admin panel, iOS app, zero-downtime deploys. Also doing applied ML research at WSU. Bilingual in English and Spanish.
           </p>
         </div>
 

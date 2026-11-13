@@ -25,7 +25,7 @@ const entries = [
     year: 'NOW',
     yearSub: 'May 2025 – Present',
     category: 'Part-time · Software',
-    desc: 'Architect and maintain the full business platform: gudinocustom.com (Three.js virtual showroom, 3D kitchen/bathroom designer with AR export), a native Swift iOS admin app with Face ID + APNs, the API, N8N automations, Instagram Graph API and SEO monitoring, and a zero-downtime blue-green deployment pipeline on self-hosted Linux with Cloudflare Tunnels.',
+    desc: 'Built and run the shop\'s whole web platform: a bilingual customer site (portfolio, 2D/3D kitchen designer with live pricing, quote requests, appointment booking) and a back office delivered as a 16-tab web admin panel and a native SwiftUI iOS app (invoices with PDF receipts, time clock with approvals and overtime, project timelines). One Express + SQLite API sends the email, SMS and push notifications; self-hosted in Docker behind nginx and a Cloudflare Tunnel with zero-downtime deploys. Also run the shop\'s IT, N8N workflows and SEO monitoring.',
   },
 ]
 

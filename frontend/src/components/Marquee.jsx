@@ -1,5 +1,5 @@
 const items = [
-  'React', 'Three.js', 'React Three Fiber', 'Swift', 'UIKit', 'APNs',
+  'React', 'Three.js', 'React Three Fiber', 'Swift', 'SwiftUI', 'APNs',
   'Docker', 'Node.js', 'TypeScript', 'Cloudflare', 'SQLite', 'FastAPI',
   'FAISS', 'XGBoost', 'N8N', 'Vite', 'Tailwind', 'WebSocket',
   'Face ID', 'Blue-green Deploy', 'Nginx', 'Python', 'Express', 'systemd',

@@ -5,7 +5,7 @@ import { MapPin, GraduationCap, Smartphone, Globe } from 'lucide-react'
 const highlights = [
   { icon: GraduationCap, label: 'B.S. Computer Science', sub: 'WSU · Graduating Dec 2026' },
   { icon: MapPin,        label: 'Pullman, WA',           sub: 'Self-hosted infrastructure of projects' },
-  { icon: Smartphone,   label: 'Web + iOS',              sub: 'React, Three.js, Swift, UIKit' },
+  { icon: Smartphone,   label: 'Web + iOS',              sub: 'React, Three.js, Swift, SwiftUI' },
   { icon: Globe,        label: 'Bilingual',              sub: 'English and Spanish' },
 ]
 
@@ -40,7 +40,7 @@ export default function About() {
               On the web side I have focused on full-stack React applications, interactive 3D interfaces,
               and the DevOps scaffolding that keeps them running: Docker, Cloudflare Tunnels,
               blue-green deployments, and zero-downtime pipelines. On the mobile side I build
-              native Swift apps with UIKit, APNs, and biometric authentication.
+              native Swift apps with SwiftUI, APNs, and biometric authentication.
             </p>
             <p>
               I have also done applied ML research through CPT S 440, studying
